@@ -13,14 +13,17 @@ repositories {
 }
 
 configurations {
-	mpsArtifacts
+    mpsArtifacts
+    apps
 }
 
 ext.artifactsDir = new File(rootDir, 'artifacts')
+ext.appsDir = new File(rootDir, 'apps')
 
 dependencies {
     mpsArtifacts "org.modelix:mps-model-plugin:0.0.6"
     mpsArtifacts "de.itemis.mps:extensions:2020.1+"
+    apps "org.modelix:model-server-fatjar:0.0.6"
 }
 
 task resolveMpsArtifacts(type: Copy) {
@@ -32,7 +35,16 @@ task resolveMpsArtifacts(type: Copy) {
     doFirst { delete artifactsDir }
 }
 
-task setup(dependsOn: resolveMpsArtifacts) {
+task resolveApps(type: Copy) {
+    dependsOn configurations.apps
+    from {
+        configurations.apps.resolve()
+    }
+    into appsDir
+    doFirst { delete appsDir }
+}
+
+task setup(dependsOn: [resolveMpsArtifacts, resolveApps]) {
     doLast {
         print "Setup completed."
     }
