@@ -1,0 +1,38 @@
+buildscript {
+    repositories {
+        jcenter()
+        maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
+    }  
+}
+
+
+repositories {
+    mavenLocal()
+	mavenCentral()
+	maven { url 'https://dl.bintray.com/modelixorg/maven/' }
+}
+
+configurations {
+	mpsArtifacts
+}
+
+ext.artifactsDir = new File(rootDir, 'artifacts')
+
+dependencies {
+	mpsArtifacts "org.modelix:mps-model-plugin:0.0.6"
+}
+
+task resolveMpsArtifacts(type: Copy) {
+    dependsOn configurations.mpsArtifacts
+    from {
+        configurations.mpsArtifacts.resolve().collect { zipTree(it) }
+    }
+    into artifactsDir
+    doFirst { delete artifactsDir }
+}
+
+task setup(dependsOn: resolveMpsArtifacts) {
+    doLast {
+        print "Setup completed."
+    }
+}

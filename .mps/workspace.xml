@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e18e81c-23ef-418f-afdc-798ba479bdfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/languages/com.strumenta.processes/com.strumenta.processes.mpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.strumenta.processes/generator/templates/main@generator.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.strumenta.processes/models/com.strumenta.processes.behavior.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.strumenta.processes/models/com.strumenta.processes.constraints.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.strumenta.processes/models/com.strumenta.processes.editor.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.strumenta.processes/models/com.strumenta.processes.structure.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.strumenta.processes/models/com.strumenta.processes.typesystem.mps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.strumenta.processes/sandbox/com.strumenta.processes.sandbox.msd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/languages/com.strumenta.processes/sandbox/models/com.strumenta.processes.sandbox.mps" afterDir="false" />
-    </list>
+    <list default="true" id="5e18e81c-23ef-418f-afdc-798ba479bdfc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
