@@ -1,15 +1,15 @@
 buildscript {
     repositories {
         jcenter()
-        maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
     }  
 }
 
 
 repositories {
     mavenLocal()
-	mavenCentral()
-	maven { url 'https://dl.bintray.com/modelixorg/maven/' }
+    mavenCentral()
+    maven { url 'https://dl.bintray.com/modelixorg/maven/' }
+    maven { url 'https://projects.itemis.de/nexus/content/repositories/mbeddr' }
 }
 
 configurations {
@@ -19,7 +19,8 @@ configurations {
 ext.artifactsDir = new File(rootDir, 'artifacts')
 
 dependencies {
-	mpsArtifacts "org.modelix:mps-model-plugin:0.0.6"
+    mpsArtifacts "org.modelix:mps-model-plugin:0.0.6"
+    mpsArtifacts "de.itemis.mps:extensions:2020.1+"
 }
 
 task resolveMpsArtifacts(type: Copy) {

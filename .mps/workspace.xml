@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e18e81c-23ef-418f-afdc-798ba479bdfc" name="Default Changelist" comment="" />
+    <list default="true" id="5e18e81c-23ef-418f-afdc-798ba479bdfc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mps/libraries.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/libraries.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConceptEditorHintSettings">
+    <option name="enabledHints">
+      <set>
+        <option value="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+        <option value="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+      </set>
+    </option>
   </component>
   <component name="ConsoleHistory">
     <option name="tabs">
@@ -13,7 +25,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="b9b85c99-3ce8-448e-b5d1-f5afb515b63d/r:bfcb887c-79a3-4403-9a3d-6fb3a077cd5d(TempModuleb9b85c99-3ce8-448e-b5d1-f5afb515b63d/ConsoleModel_4054894347051)">
+            <model ref="8277345f-45f3-48f1-976a-e9df219e0c2c/r:6793ef1a-bf20-4dd2-a2bf-c77c00187539(TempModule8277345f-45f3-48f1-976a-e9df219e0c2c/ConsoleModel_6723301135029)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -33,11 +45,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="54dccAUoPA">
-                <node concept="3balQm" id="54dccAUoPB" role="aymYE" />
-                <node concept="2Clz$F" id="54dccAUoPC" role="aymYO" />
-                <node concept="2_V_lH" id="54dccAUoPD" role="1PhJh3">
-                  <ref role="2_V_lI" node="54dccAUoPC" resolve="CommandHolder" />
+              <node concept="aymSD" id="54dccAUOUB">
+                <node concept="3balQm" id="54dccAUOUC" role="aymYE" />
+                <node concept="2Clz$F" id="54dccAUOUD" role="aymYO" />
+                <node concept="2_V_lH" id="54dccAUOUE" role="1PhJh3">
+                  <ref role="2_V_lI" node="54dccAUOUD" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -58,6 +70,9 @@
         <flags show_one_result="true" new_tab="false" />
       </view>
     </search_options>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MPSBookmarkManager">
     <option name="myBookmarkInfos">
@@ -87,6 +102,51 @@
   <component name="ProjectId" id="1iu5tK5rprK2vJRU5FWkxJiOXMC" />
   <component name="ProjectPluginManager">
     <option name="pluginsState">
+      <option name="de.itemis.mps.editor.celllayout.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.editor.diagram.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.mouselistener.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.selection.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.itemis.mps.tooltips.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.q60.mps.explorer.plugin.Explorer_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.q60.mps.shadowmodels.modelcheck.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.q60.mps.shadowmodels.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
+      <option name="de.slisson.mps.conditionalEditor.runtime.plugin.Runtime_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
       <option name="jetbrains.mps.baseLanguage.lightweightdsl.pluginSolution.plugin.PluginSolution_ProjectPlugin">
         <value>
           <PluginState />
@@ -145,58 +205,22 @@
           <PluginState />
         </value>
       </option>
+      <option name="org.modelix.model.mpsplugin.plugin.Mpsplugin_ProjectPlugin">
+        <value>
+          <PluginState />
+        </value>
+      </option>
     </option>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a0a2543e-d824-4d01-b7fe-743532b8cf4f" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a0a2543e-d824-4d01-b7fe-743532b8cf4f" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:fa0d6b6d-4dc3-42fb-8ce5-e47fc710e5f9(com.strumenta.processes.sandbox) in IdeaFile[path: /Users/federico/repos/processes-modelix-demo/languages/com.strumenta.processes/sandbox/models/com.strumenta.processes.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="a0a2543e-d824-4d01-b7fe-743532b8cf4f" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
@@ -209,18 +233,9 @@
               <option name="myItemId" value="a0a2543e-d824-4d01-b7fe-743532b8cf4f" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:fa0d6b6d-4dc3-42fb-8ce5-e47fc710e5f9(com.strumenta.processes.sandbox) in IdeaFile[path: /Users/federico/repos/processes-modelix-demo/languages/com.strumenta.processes/sandbox/models/com.strumenta.processes.sandbox.mps]" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -253,9 +268,9 @@
     </default_view_options>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1879" y="145" key="SettingsEditor" timestamp="1602747284675">
+    <state x="1879" y="145" key="SettingsEditor" timestamp="1602747900576">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
-    <state x="1879" y="145" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1602747284675" />
+    <state x="1879" y="145" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1602747900576" />
   </component>
 </project>

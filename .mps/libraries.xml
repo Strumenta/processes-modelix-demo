@@ -19,6 +19,14 @@
             </Library>
           </value>
         </entry>
+        <entry key="mps-extensions">
+          <value>
+            <Library>
+              <option name="name" value="mps-extensions" />
+              <option name="path" value="$PROJECT_DIR$/artifacts/de.itemis.mps.extensions" />
+            </Library>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
