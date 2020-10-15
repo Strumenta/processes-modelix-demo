@@ -3,3 +3,4 @@
 **/source_gen.caches
 .gradle
 artifacts
+**/.DS_Store
